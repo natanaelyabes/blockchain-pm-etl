@@ -1,0 +1,28 @@
+{
+  "name": "blockchain-pm-etl",
+  "version": "1.0.0",
+  "description": "Blockchain Process Mining ETL",
+  "main": "main.js",
+  "dependencies": {
+    "abi-decoder": "^2.3.0",
+    "dotenv": "^8.2.0",
+    "ethereum-input-data-decoder": "^0.3.0",
+    "etherscan-api": "^10.0.5",
+    "jshint": "^2.11.1",
+    "web3": "^1.2.9",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "exec": "node format.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "process",
+    "mining",
+    "ETL"
+  ],
+  "author": "Natanael Yabes Wirawan",
+  "license": "ISC"
+}
