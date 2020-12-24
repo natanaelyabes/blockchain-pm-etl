@@ -23,7 +23,7 @@ let paramCol = []; decodedEvs.map((tx) => { // record event param columns
 
 let prefix = ","; // seperate param col with delimiter
 paramCol.forEach(col => d += prefix + "param_" + col);
-d += "\n"; // give new line to appender
+d += "\n"; // insert new line to appender
 
 decodedEvs.map((tx) => { // Convert decoded evs to csv
     
